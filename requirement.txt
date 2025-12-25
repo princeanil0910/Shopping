@@ -1,0 +1,5 @@
+# ShopNow dependency install targets
+# Each non-empty, non-comment line is a directory to install with npm
+server
+client
+
