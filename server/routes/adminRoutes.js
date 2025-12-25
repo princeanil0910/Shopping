@@ -7,8 +7,8 @@ const mongoose = require("mongoose");
 const router = express.Router();
 
 // Admin credentials
-const ADMIN_USERNAME = "Bheema";
-const ADMIN_PASSWORD = "Bheema21@=#";
+const ADMIN_USERNAME = "Anil";
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "Anil@0251";
 
 // Admin Login
 router.post("/login", async (req, res) => {
